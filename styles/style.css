@@ -1,0 +1,70 @@
+* {
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header {
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.books,
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    min-height: 200px;
+    max-height: 300px;
+}
+
+.cover {
+    width: 120px;
+    height: auto;
+}
+
+footer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.book-item {
+    display: flex;
+    flex-direction: row;
+}
