@@ -38,7 +38,6 @@ header {
     display: flex;
     flex-direction: column;
     width: 40%;
-
 }
 
 .item {
@@ -46,12 +45,11 @@ header {
     flex-direction: column;
     margin-bottom: 20px;
     box-sizing: content-box;
-    min-height: 200px;
-    max-height: 300px;
 }
 
 .cover {
-    width: 120px;
+    max-width: 120px;
+    width: 100%;
     height: auto;
 }
 
@@ -67,4 +65,5 @@ footer {
 .book-item {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
