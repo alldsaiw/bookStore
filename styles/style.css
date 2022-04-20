@@ -6,28 +6,29 @@
 }
 
 button {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
     background-color: #d1dcde;
     cursor: pointer;
     color: #04323a;
-    }
+}
 
 header {
     height: 100px;
-    width: 80%;
+    width: 70%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 nav {
-    width:20%;
+    width: 20%;
 }
 
-.nav-menu {
-    display: flex;
-    flex-direction: column;
-}   
+.h-menu {
+    width: 42px;
+    cursor: pointer;
+}
 
 .hamburger {
     height: 5px;
@@ -36,7 +37,6 @@ nav {
     background-color: #04323a;
     margin-bottom: 5px;
     opacity: 70%;
-    cursor: pointer;
 }
 
 .display-menu {
@@ -49,7 +49,6 @@ nav {
 }
 
 main {
-    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -59,8 +58,7 @@ main {
 .books {
     display: flex;
     flex-direction: column;
-    width: 40%;
-
+    width: 70%;
 }
 
 .item {
@@ -70,7 +68,8 @@ main {
     box-sizing: content-box;
     min-height: 200px;
     max-height: 300px;
-    color: #0b8eab;}
+    color: #0b8eab;
+}
 
 .cover {
     width: 120px;
