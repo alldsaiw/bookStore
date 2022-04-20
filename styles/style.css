@@ -1,15 +1,17 @@
 * {
-    background-color: grey;
+    background-color: #f7e8e3;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    color: #04323a;
 }
 
 button {
     width: 50px;
     height: 50px;
-    background-color: #fff;
+    background-color: #d1dcde;
     cursor: pointer;
-}
+    color: #04323a;
+    }
 
 header {
     height: 100px;
@@ -18,14 +20,35 @@ header {
     margin-right: 10%;
 }
 
-.nav-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+nav {
+    width:20%;
 }
 
-.main {
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+}   
+
+.hamburger {
+    height: 5px;
+    width: 40px;
+    border-radius: 2px;
+    background-color: #04323a;
+    margin-bottom: 5px;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.display-menu {
+    display: none;
+}
+
+.display-menu-open {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -33,11 +56,11 @@ header {
     justify-content: space-evenly;
 }
 
-.books,
-.blog {
+.books {
     display: flex;
     flex-direction: column;
     width: 40%;
+
 }
 
 .item {
@@ -45,11 +68,12 @@ header {
     flex-direction: column;
     margin-bottom: 20px;
     box-sizing: content-box;
-}
+    min-height: 200px;
+    max-height: 300px;
+    color: #0b8eab;}
 
 .cover {
-    max-width: 120px;
-    width: 100%;
+    width: 120px;
     height: auto;
 }
 
@@ -65,5 +89,4 @@ footer {
 .book-item {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
