@@ -50,19 +50,6 @@ nav {
     flex-direction: column;
 }
 
-.ham1-close {
-    transform: rotate(45deg) translatex(11px) translatey(5px);
-}
-
-.ham2-close {
-    display: none;
-}
-
-.ham3-close {
-    transform: rotate(-45deg) translatex(2px) translatey(5px);
-}
-
-
 main {
     margin-left: 10%;
     margin-right: 10%;
