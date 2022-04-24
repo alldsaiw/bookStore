@@ -10,3 +10,11 @@ menuButton.addEventListener('click', () => {
         menuShow.classList.add('display-menu');
     }
 });
+
+
+let btnUp = document.querySelector('.btn-up');
+btnUp.addEventListener('click', () => {
+    if (window.pageYOffset > 0) {
+        window.scroll(0, 0);
+    }
+});
