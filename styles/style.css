@@ -32,6 +32,10 @@ button {
     left: 40px;
 }
 
+.btn-add-new {
+    font-size: 13px;
+}
+
 header {
     background-color: #eeefea;
     height: 100px;

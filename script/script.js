@@ -15,6 +15,9 @@ menuButton.addEventListener('click', () => {
 let btnUp = document.querySelector('.btn-up');
 btnUp.addEventListener('click', () => {
     if (window.pageYOffset > 0) {
-        window.scroll(0, 0);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 });
