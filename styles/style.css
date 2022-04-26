@@ -8,6 +8,10 @@ html {
     background-color: #eeefea;
 }
 
+a{
+    text-decoration: none;
+}
+
 button {
     width: 100px;
     height: 30px;
@@ -47,7 +51,6 @@ header {
 
 nav {
     background-color: #eeefea;
-    width: 42px;
 }
 
 .h-menu {
@@ -104,8 +107,9 @@ main {
     color: #0b8eab;
 }
 
+
 .cover {
-    width: 240px;
+    max-width: 240px;
     height: auto;
     border: 1px solid white;
 }
