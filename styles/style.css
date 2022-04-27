@@ -76,6 +76,7 @@ nav {
     flex-direction: column;
     background-color: #dbdfd9;
     opacity: 60%;
+    position: absolute;
 }
 
 .menu-text {
@@ -94,12 +95,12 @@ main {
 .books {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    margin: auto;
 }
 
-.item {
-    display: flex;
-    flex-direction: column;
+.book-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
     box-sizing: content-box;
     min-height: 200px;
@@ -107,9 +108,16 @@ main {
     color: #0b8eab;
 }
 
+.book-txt {
+    padding-left: 30px;
+}
+
+.coverimg {
+max-width: 240px
+}
 
 .cover {
-    max-width: 240px;
+    max-width: 100%;
     height: auto;
     border: 1px solid white;
 }
@@ -123,12 +131,3 @@ footer {
     bottom: 0;
 }
 
-
-.book-item {
-    display: flex;
-    flex-direction: row;
-}
-
-.book-txt {
-    padding-left: 30px;
-}
