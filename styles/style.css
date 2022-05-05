@@ -89,10 +89,11 @@ main {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
-.books {
+section {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -149,7 +150,7 @@ footer {
     position: relative;
     text-align: center;
     width: 40vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     background-color: #eeefea;
@@ -163,6 +164,12 @@ footer {
     width: 80%;
     margin: auto;
     padding-top: 10px;
+}
+
+.header-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .header {
@@ -191,4 +198,14 @@ textarea {
     outline: none;
     padding: 5px;
     margin: auto;
+}
+
+.input-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.txt-header {
+    margin: 0;
 }
