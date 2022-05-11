@@ -38,6 +38,7 @@ button {
 
 .btn-add-new {
     font-size: 13px;
+    
 }
 
 header {
@@ -50,20 +51,13 @@ header {
 
 nav {
     background-color: #eeefea;
+    height: 32px;
+    width: 32px;
 }
 
 .h-menu {
-    width: 42px;
+    width: 32px;
     cursor: pointer;
-}
-
-.hamburger {
-    height: 4px;
-    width: 35px;
-    border-radius: 2px;
-    background-color: #615D4C;
-    margin-bottom: 5px;
-    border-color: none;
 }
 
 .display-menu {
@@ -90,6 +84,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 30px;
+    box-sizing: content-box;
 }
 
 section {
@@ -212,4 +208,21 @@ textarea {
 
 #menu-close {
     display: none;
+}
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+.sec-header {
+    width: 60%;
+    margin: auto;
+}
+
+
+.footer {
+    margin-top: 10px;
+    height: 20px;
+    box-sizing: content-box;
 }
