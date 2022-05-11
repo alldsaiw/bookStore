@@ -42,7 +42,6 @@ button {
 
 header {
     background-color: #eeefea;
-    height: 100px;
     width: 70%;
     margin-left: 10%;
     margin-right: 10%;
@@ -207,5 +206,10 @@ textarea {
 }
 
 .txt-header {
-    margin: 0;
+    margin: 0 auto;
+
+}
+
+#menu-close {
+    display: none;
 }
