@@ -20,22 +20,22 @@
             </div>
             <div class="display-menu">
                 <p class="menu-text"><a href="#books">Книги</a></p>
-                <p class="menu-text">Творческие планы</p>
-                <p class="menu-text">Блог</p>
+                <p class="menu-text"><a href="#plans">Творческие планы</a></p>
+                <p class="menu-text"><a href="#blog">Блог</a></p>
             </div>
         </nav>
         <h1 class="txt-header">Страница писательницы Е. Афанасьевой</h1>
     
     </header>
     <main class="main">
-        <div class="wrapper"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem expedita fuga labore error quas in ad! Aperiam deserunt quisquam mollitia optio obcaecati vitae qui, quia facere doloremque ipsa pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere praesentium at temporibus corrupti asperiores ratione ullam aut, numquam enim deleniti minima perferendis nostrum exercitationem quo cum labore! Ut, molestiae?</p></div>
-        <div class="sec-header"><h2>Книги</h2></div>
+        <div class="wrapper-head"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem expedita fuga labore error quas in ad! Aperiam deserunt quisquam mollitia optio obcaecati vitae qui, quia facere doloremque ipsa pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere praesentium at temporibus corrupti asperiores ratione ullam aut, numquam enim deleniti minima perferendis nostrum exercitationem quo cum labore! Ut, molestiae?</p></div>
+        
         <section class="books" id="books">
-            
-            <article class="book-item">
+            <div class="sec-header"><h2>Книги</h2></div>
+            <article class="book-item" id="prognoz">
                 <div class="coverimg"><img src="img/prognoz.jpg" alt="prognoz.jpg" class="cover"></div>
                 <div class="book-txt">
-                    <h3>Точный прогноз</h3>
+                    <h3><a id="prognoz">Точный прогноз</a></h3>
                     <p>Рассказ из цикла "Дикая магия"</p>
                     <button class="read"><a href="https://litmarket.ru/reader/tochnyy-prognoz">
                         Читать</a></button>
@@ -43,10 +43,10 @@
                 </div>
             </article>
             
-            <article class="book-item">
+            <article class="book-item" id="gorod">
                 <div class="coverimg"><img src="img/gorod.jpg" alt="gorod.jpg" class="cover"></div>
                 <div class="book-txt">
-                    <h3>Когда город начинает петь</h3>
+                    <h3><a id="gorod">Когда город начинает петь</a></h3>
                     <p>Роман из цикла "Чуткие"</p>
                     <button class="read"><a href="https://litmarket.ru/reader/kogda-gorod-nachinaet-pet">Читать</a>
                         </button>
@@ -56,14 +56,13 @@
 
         </section>
         
-        <section class="new-plans">
+        <section class="new-plans" id="plans">
             <div class="sec-header"><h2>Творческие планы</h2></div>
             <div class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum velit, quisquam ex nostrum cumque minima a esse repellendus eaque illo impedit at cupiditate sed dolores distinctio ab aut eos!</div>
         </section>
 
-        <section class="blog">
+        <section class="blog" id="blog">
             <div class="sec-header"><h2>Блог</h2></div>
-            <div class="wrapper"><button class="btn-add-new">Новая запись</button></div>
             <div class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum velit, quisquam ex nostrum cumque minima a esse repellendus eaque illo impedit at cupiditate sed dolores distinctio ab aut eos!</div>
         </section>
 

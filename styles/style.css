@@ -36,10 +36,6 @@ button {
     left: 40px;
 }
 
-.btn-add-new {
-    font-size: 13px;
-    
-}
 
 header {
     background-color: #eeefea;
@@ -47,6 +43,7 @@ header {
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    padding: 20px;
 }
 
 nav {
@@ -77,6 +74,11 @@ nav {
     color:#615D4C;
 }
 
+.wrapper-head {
+    width: 60%;
+    margin: auto;
+}
+
 main {
     background-color: #eeefea;
     margin-left: 10%;
@@ -90,6 +92,13 @@ section {
     display: flex;
     flex-direction: column;
     margin: auto;
+    width: 60%;
+}
+
+article {
+    border: 1px solid #b6b9a3;
+    width: 100%;
+    padding: 20px;
 }
 
 .book-item {
@@ -123,8 +132,6 @@ footer {
     position: fixed;
     bottom: 0;
 }
-
-
 
 .form-container {
     position: fixed;
@@ -206,14 +213,4 @@ textarea {
 
 #menu-close {
     display: none;
-}
-
-.wrapper {
-    width: 60%;
-    margin: auto;
-}
-
-.sec-header {
-    width: 60%;
-    margin: auto;
 }
