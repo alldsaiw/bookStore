@@ -65,8 +65,11 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #dbdfd9;
-    opacity: 60%;
+    opacity: 100%;
     position: absolute;
+}
+#menu-close {
+    display: none;
 }
 
 .menu-text {
@@ -86,6 +89,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 40px;
+    box-sizing: content-box;
 }
 
 section {
@@ -131,6 +136,10 @@ footer {
     margin-right: 10%;
     position: fixed;
     bottom: 0;
+    margin-top: 10px;
+    height: 20px;
+    box-sizing: content-box;
+    padding-top: 10px;
 }
 
 .form-container {
