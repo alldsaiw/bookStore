@@ -104,13 +104,13 @@ article {
     border: 1px solid #b6b9a3;
     width: 100%;
     padding: 20px;
+    box-sizing: content-box;
 }
 
 .book-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
-    box-sizing: content-box;
     min-height: 200px;
     max-height: 500px;
 }
@@ -220,6 +220,11 @@ textarea {
 
 }
 
-#menu-close {
-    display: none;
+.book-page {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    min-height: 200px;
+    max-height: 500px;
 }
