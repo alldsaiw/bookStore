@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,35 @@
     <title>Книжное логово</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="h-menu">
                 <?xml version="1.0" encoding="iso-8859-1"?>
-<?xml version="1.0" ?><svg id="menu-open" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path d="M28,10H4A1,1,0,0,1,4,8H28a1,1,0,0,1,0,2Z"/><path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/><path d="M28,24H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/></g><g id="frame"><rect class="cls-1" height="32" width="32"/></g></svg>
+                <?xml version="1.0" ?><svg id="menu-open" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <g data-name="Layer 2" id="Layer_2">
+                        <path d="M28,10H4A1,1,0,0,1,4,8H28a1,1,0,0,1,0,2Z" />
+                        <path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z" />
+                        <path d="M28,24H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z" />
+                    </g>
+                    <g id="frame">
+                        <rect class="cls-1" height="32" width="32" />
+                    </g>
+                </svg>
                 <svg id="menu-close" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 20L4 4.00003M20 4L4.00002 20" stroke-width="2" stroke-linecap="round" fill="#766e3f" stroke="#766e3f"/>
-                    </svg>
-                    
+                    <path d="M20 20L4 4.00003M20 4L4.00002 20" stroke-width="2" stroke-linecap="round" fill="#766e3f"
+                        stroke="#766e3f" />
+                </svg>
+
             </div>
             <div class="display-menu">
                 <p class="menu-text"><a href="#books">Книги</a></p>
@@ -25,50 +45,75 @@
             </div>
         </nav>
         <h1 class="txt-header">Страница писательницы Е. Афанасьевой</h1>
-    
+
     </header>
     <main class="main">
-        <div class="wrapper-head"><p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem expedita fuga labore error quas in ad! Aperiam deserunt quisquam mollitia optio obcaecati vitae qui, quia facere doloremque ipsa pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere praesentium at temporibus corrupti asperiores ratione ullam aut, numquam enim deleniti minima perferendis nostrum exercitationem quo cum labore! Ut, molestiae?</p></div>
-        
+        <div class="wrapper-head">
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem expedita fuga
+                labore error quas in ad! Aperiam deserunt quisquam mollitia optio obcaecati vitae qui, quia facere
+                doloremque ipsa pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facere
+                praesentium at temporibus corrupti asperiores ratione ullam aut, numquam enim deleniti minima
+                perferendis nostrum exercitationem quo cum labore! Ut, molestiae?</p>
+        </div>
+
         <section class="books" id="books">
-            <div class="sec-header"><h2>Книги</h2></div>
+            <div class="sec-header">
+                <h2>Книги</h2>
+            </div>
             <article class="book-item" id="prognoz">
                 <div class="coverimg"><img src="img/prognoz.jpg" alt="prognoz.jpg" class="cover"></div>
                 <div class="book-txt">
                     <h3><a href="/prognoz.html">Точный прогноз</a></h3>
-                    <p>Что делать, когда собственное ремесло перестаёт подчиняться? Выводы ошибочны, а оборудование врёт? Но хуже всего то, что кто-то с лёгкостью совершает то, что стало для тебя невозможным. Но... кто?
+                    <p>Что делать, когда собственное ремесло перестаёт подчиняться? Выводы ошибочны, а оборудование
+                        врёт? Но хуже всего то, что кто-то с лёгкостью совершает то, что стало для тебя невозможным.
+                        Но... кто?
                         И как он это делает?!</p>
                     <p>Рассказ из цикла "Дикая магия"</p>
                     <button class="read"><a href="https://litmarket.ru/reader/tochnyy-prognoz">
-                        Читать</a></button>
+                            Читать</a></button>
                     <button class="btn-add">Отзыв</button>
                 </div>
             </article>
-            
+
             <article class="book-item" id="gorod">
                 <div class="coverimg"><img src="img/gorod.jpg" alt="gorod.jpg" class="cover"></div>
                 <div class="book-txt">
-                    <h3><a id="gorod">Когда город начинает петь</a></h3>
+                    <h3><a href="/gorod.html">Когда город начинает петь</a></h3>
                     <p>Роман из цикла "Чуткие"</p>
                     <button class="read"><a href="https://litmarket.ru/reader/kogda-gorod-nachinaet-pet">Читать</a>
-                        </button>
+                    </button>
                     <button class="btn-add">Отзыв</button>
                 </div>
             </article>
 
         </section>
-        
+
         <section class="new-plans" id="plans">
-            <div class="sec-header"><h2>Творческие планы</h2></div>
-            
-                <article>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum velit, quisquam ex nostrum cumque minima a esse repellendus eaque illo impedit at cupiditate sed dolores distinctio ab aut eos!</article>
-            
+            <div class="sec-header">
+                <h2>Творческие планы</h2>
+            </div>
+
+            <article>
+                <h3>Роман «Ковен» (черновое название) — в разработке</h3>
+                <p>
+                    К человеку, сделавшему себе имя на перевозке деликатных грузов через границу миров, приходят люди с
+                    просьбой, от которой не стоит отказываться. Перевозчик не желает связываться с настолько дурно
+                    пахнущей историей, и... </p>
+                <p> ...через несколько лет молодая ведьма получает в наследство дом в приграничном городке. Что стало с
+                    тёткой, оставившей наследство, никто толком не знает. Пытаясь привести давно заброшенный участок в
+                    порядок, девушка находит в гараже автомобиль не существовавшей в её мире модели. </p>
+
+            </article>
+
         </section>
 
         <section class="blog" id="blog">
-            <div class="sec-header"><h2>Блог</h2></div>
-            <div class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum velit, quisquam ex nostrum cumque minima a esse repellendus eaque illo impedit at cupiditate sed dolores distinctio ab aut eos!</div>
+            <div class="sec-header">
+                <h2>Блог</h2>
+            </div>
+            <div class="wrapper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum velit,
+                quisquam ex nostrum cumque minima a esse repellendus eaque illo impedit at cupiditate sed dolores
+                distinctio ab aut eos!</div>
         </section>
 
         <button class="btn-up">
@@ -96,19 +141,20 @@
                     </g>
                 </g>
             </svg></button>
-            <form class="form-container">
-                <div class="inner-form">
-                    <div class="header-container">
-                        <p class="header-text">Заголовок записи</p>
-                        <input type="text" class="header"></div>
-                    <div class="input-container">
-                        <p class="input-text">Текст записи</p>
-                        <textarea name="text" id="newPost" cols="60" rows="15"></textarea>
-                    </div>
+        <form class="form-container">
+            <div class="inner-form">
+                <div class="header-container">
+                    <p class="header-text">Заголовок записи</p>
+                    <input type="text" class="header">
                 </div>
-            </form>
+                <div class="input-container">
+                    <p class="input-text">Текст записи</p>
+                    <textarea name="text" id="newPost" cols="60" rows="15"></textarea>
+                </div>
+            </div>
+        </form>
     </main>
-    <footer class="footer">footer menu
 </body>
 <script src="script/script.js"></script>
+
 </html>
