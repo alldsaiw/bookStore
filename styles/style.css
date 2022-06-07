@@ -46,6 +46,10 @@ header {
     padding: 20px;
 }
 
+.txt-header {
+    margin: auto;
+}
+
 nav {
     background-color: #eeefea;
     height: 32px;
