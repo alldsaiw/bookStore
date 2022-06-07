@@ -46,6 +46,10 @@ header {
     padding: 20px;
 }
 
+.txt-header {
+    margin: auto;
+}
+
 nav {
     background-color: #eeefea;
     height: 32px;
@@ -108,6 +112,7 @@ article {
     padding: 20px;
     box-sizing: content-box;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .book-item {
