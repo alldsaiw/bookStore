@@ -1,0 +1,282 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #766e3f;
+}
+
+html {
+    background-color: #eeefea;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background: rgb(219,223,217);
+    background: linear-gradient(90deg, rgba(219,223,217,1) 0%, rgba(182,185,163,1) 100%);
+    cursor: pointer;
+    color: #766e3f;
+    box-shadow: none;
+    border: 1px solid #b6b9a3;
+    margin: 10px;
+}
+
+.btn-up {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(219,223,217);
+    background: linear-gradient(90deg, rgba(219,223,217,1) 0%, rgba(182,185,163,1) 100%);
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+}
+
+
+header {
+    background-color: #eeefea;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    padding: 20px;
+}
+
+nav {
+    background-color: #eeefea;
+    height: 32px;
+    width: 32px;
+    margin: 10px;
+}
+
+
+.wrapper-head {
+    width: 60%;
+    margin: auto;
+}
+
+main {
+    background-color: #eeefea;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    box-sizing: content-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+article {
+    border: 1px solid #b6b9a3;
+    width: 100%;
+    padding: 20px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.book-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    min-height: 200px;
+    max-height: 500px;
+}
+
+.book-txt {
+    padding-left: 30px;
+}
+
+.coverimg {
+max-width: 240px
+}
+
+.cover {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+
+.form-container {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 3rem 0;
+    background: rgba(83, 85, 68, 0.3);
+    display: none;
+}
+
+.inner-form {
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeefea;
+    text-align: center;
+    border: 2px solid #b6b9a3;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.header-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #b6b9a3;
+    padding: 5px;
+    outline: none;
+}
+
+.input-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #b6b9a3;
+    outline: none;
+    padding: 5px;
+    margin: auto;
+}
+
+.input-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.txt-header {
+    margin: 0 auto;
+
+}
+
+.book-page {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    min-height: 200px;
+    max-height: 500px;
+    margin: auto;
+}
+
+.back-arrow {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+.form-container {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 3rem 0;
+    background: rgba(83, 85, 68, 0.3);
+    display: none;
+}
+
+.inner-form {
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeefea;
+    text-align: center;
+    border: 2px solid #b6b9a3;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.header-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #b6b9a3;
+    padding: 5px;
+    outline: none;
+}
+
+.input-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #b6b9a3;
+    outline: none;
+    padding: 5px;
+    margin: auto;
+}
+
+.input-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.txt-header {
+    margin: 0 auto;
+
+}
