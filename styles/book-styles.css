@@ -83,6 +83,15 @@ main {
     margin: auto;
 }
 
+article {
+    border: 1px solid #b6b9a3;
+    width: 80%;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .book-txt {
     padding-left: 30px;
 }
