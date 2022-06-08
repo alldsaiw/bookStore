@@ -1,14 +1,20 @@
 
-let feedback = document.querySelector('.btn-add');
+let feedbackClick = document.querySelector('.btn-add');
 
-feedback.addEventListener ('click', () => {
+feedbackClick.addEventListener ('click', () => {
     for (let i = 0; i < 1; i++) {
-        let answer = prompt('Оставьте отзыв о книге!', '');
+        let answer = window.prompt('Оставьте отзыв о книге!', '');
         if (answer != null && answer != '' && typeof(answer) == 'string') {
         } else {
         i--;
     }
-    }
+    let answerText = answer;
+    let feedbackSent = document.createElement('article');
+    feedbackSent.innerText = answerText;
+    let placeholder = document.querySelector('#placeholder');
+    let parent = placeholder.parentNode;
+   parent.insertBefore(feedbackSent, placeholder);
+}
     alert ('Спасибо!');
 });
 
